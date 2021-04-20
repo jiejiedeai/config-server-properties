@@ -21,3 +21,5 @@ spring:
     properties:
       hibernate:
         batchSize: 500
+    hibernate:
+      ddl-auto: update
