@@ -26,10 +26,3 @@ spring:
       filters: stat,wall,slf4j
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
       useGlobalDataSourceStat: true
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    properties:
-      hibernate:
-        batchSize: 500
-    hibernate:
-      ddl-auto: update
